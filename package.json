@@ -1,6 +1,6 @@
 {
   "name": "loopback4-dynamic-datasource",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An extension to connect to dynamic datasource in loopback 4 application",
   "keywords": [
     "loopback-extension",
@@ -42,17 +42,17 @@
     "!*/__tests__"
   ],
   "peerDependencies": {
-    "@loopback/core": ">=2.16.0"
+    "@loopback/core": ">=3.1.2"
   },
   "dependencies": {
-    "@loopback/repository": "^3.6.0",
-    "@loopback/rest": "^9.3.0",
+    "@loopback/repository": "^4.1.2",
+    "@loopback/rest": "^11.1.2",
     "tslib": "^2.0.0"
   },
   "devDependencies": {
     "@loopback/build": "^6.4.0",
     "source-map-support": "^0.5.19",
-    "@loopback/core": "^2.16.0",
+    "@loopback/core": "^3.1.2",
     "@loopback/testlab": "^3.4.0",
     "@types/node": "^10.17.59",
     "@loopback/eslint-config": "^10.2.0",
