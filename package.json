@@ -10,7 +10,6 @@
   "engines": {
     "node": ">=14.00"
   },
-  "type": "module",
   "scripts": {
     "build": "lb-tsc",
     "build:watch": "lb-tsc --watch",
