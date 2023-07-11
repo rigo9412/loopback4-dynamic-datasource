@@ -13,15 +13,15 @@ import {
   Loopback4DynamicDatasourceComponentBindings,
 } from './keys';
 import {
-  DEFAULT_LOOPBACK4_DYNAMIC_DATASOURCE_OPTIONS,
-  Loopback4DynamicDatasourceComponentOptions,
-} from './types';
-import {
   DatasourceIdentifierProvider,
   DatasourceProvider,
   DynamicDatasourceActionProvider,
   DynamicDatasourceMiddlewareProvider,
 } from './providers';
+import {
+  DEFAULT_LOOPBACK4_DYNAMIC_DATASOURCE_OPTIONS,
+  Loopback4DynamicDatasourceComponentOptions,
+} from './types';
 
 // Configure the binding for Loopback4DynamicDatasourceComponent
 @injectable({
@@ -45,5 +45,5 @@ export class Loopback4DynamicDatasourceComponent implements Component {
     private application: Application,
     @config()
     private options: Loopback4DynamicDatasourceComponentOptions = DEFAULT_LOOPBACK4_DYNAMIC_DATASOURCE_OPTIONS,
-  ) {}
+  ) { }
 }
