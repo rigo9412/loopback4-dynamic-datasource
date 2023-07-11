@@ -1,11 +1,12 @@
 {
   "name": "loopback4-dynamic-datasource",
-  "version": "1.0.2",
+  "version": "1.0.1",
   "description": "An extension to connect to dynamic datasource in loopback 4 application",
   "keywords": [
     "loopback-extension",
     "loopback"
   ],
+  "main": "src/index.ts",
   "engines": {
     "node": ">=10.16"
   },
@@ -29,13 +30,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/sourcefuse/loopBack4-dynamic-datasource"
+    "url": "https://github.com/rigo9412/loopback4-dynamic-datasource.git"
   },
   "author": "",
   "license": "MIT",
   "files": [
     "README.md",
-    "dist",
     "src",
     "!*/__tests__"
   ],
