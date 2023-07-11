@@ -6,7 +6,7 @@
     "loopback-extension",
     "loopback"
   ],
-  "main": "src/index.ts",
+  "main": "out/index.js",
   "engines": {
     "node": ">=10.16"
   },
@@ -38,6 +38,7 @@
   "files": [
     "README.md",
     "src",
+    "out",
     "!*/__tests__"
   ],
   "peerDependencies": {
