@@ -1,6 +1,6 @@
 {
   "name": "loopback4-dynamic-datasource",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "An extension to connect to dynamic datasource in loopback 4 application",
   "keywords": [
     "loopback-extension",
@@ -8,7 +8,7 @@
   ],
   "main": "out/index.js",
   "engines": {
-    "node": ">=10.16"
+    "node": ">=14.00"
   },
   "type": "module",
   "scripts": {
